@@ -11,5 +11,26 @@ https://calebporzio.com/easy-free-serverless-laravel-with-vercel
 
 it'll return "Undefined variable" if you use artisan to make component (best to add component manually)
 
-> <x-tag :sometag="$project[0]['tags']" />
+Insert value to component
 
+- index
+```php
+<x-tag :sometag="$project[0]['tags']" />
+```
+
+- tag Component
+```php
+dd($sometag);
+```
+
+Expected output:
+
+"(Show value of $sometag)"
+
+The output:
+
+"Undefined variable of $sometag"
+
+Reason:
+
+" $sometag are not included on on app/tag.php "
