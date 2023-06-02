@@ -11,5 +11,5 @@ https://calebporzio.com/easy-free-serverless-laravel-with-vercel
 
 it'll return "Undefined variable" if you use artisan to make component (best to add component manually)
 
-><x-tag :sometag="$project[0]['tags']" />
+> <x-tag :sometag="$project[0]['tags']" />
 >
