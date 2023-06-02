@@ -8,7 +8,7 @@ https://calebporzio.com/easy-free-serverless-laravel-with-vercel
 
 # 2/6/2023
 
-## Laravel
+#### Laravel
 
 - Using php artisan make:component {{name of component}} will need manual insertion on app/{{name of component}}
 
