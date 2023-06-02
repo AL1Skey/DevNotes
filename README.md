@@ -34,3 +34,8 @@ The output:
 Reason:
 
 " $sometag are not included on on app/tag.php "
+
+Workaround:
+
+- Don't use php artisan make:component to make component, instead create component manually (Chaotic Neutral)
+- Add variable to app/tag.php (Lawful Neutral)
