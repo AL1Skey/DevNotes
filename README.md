@@ -10,3 +10,6 @@ https://calebporzio.com/easy-free-serverless-laravel-with-vercel
 - Using php artisan make:component {{name of component}} will need manual insertion on app/{{name of component}}
 
 it'll return "Undefined variable" if you use artisan to make component (best to add component manually)
+
+><x-tag :sometag="$project[0]['tags']" />
+>
