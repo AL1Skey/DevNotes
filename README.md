@@ -42,3 +42,7 @@ Workaround:
 
 - Don't use php artisan make:component to make component, instead create component manually (Chaotic Neutral)
 - Add $sometag variable to app/tag.php (Lawful Neutral)
+
+# 3/6/2023
+### Flutter/Dart
+The only difference between the final and const keyword is that final is a runtime-constant, which in turn means that its value can be assigned at runtime instead of the compile-time that we had for the const keyword.
