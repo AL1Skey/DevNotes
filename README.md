@@ -46,3 +46,17 @@ Workaround:
 # 3/6/2023
 ### Flutter/Dart
 The only difference between the final and const keyword is that final is a runtime-constant, which in turn means that its value can be assigned at runtime instead of the compile-time that we had for the const keyword.
+
+### Git
+- Problem
+
+Need to merge specific file
+
+- Answer
+
+"Although not a merge per se, sometimes the entire contents of another file on another branch are needed. Jason Rudolph's blog post provides a simple way to copy files from one branch to another. Apply the technique as follows:
+
+$ git checkout branch1 # ensure in branch1 is checked out and active
+$ git checkout branch2 file.py
+
+Now file.py is now in branch1."
