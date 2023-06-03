@@ -55,8 +55,8 @@ Need to merge specific file
 ##### Answer
 
 "Although not a merge per se, sometimes the entire contents of another file on another branch are needed. Jason Rudolph's blog post provides a simple way to copy files from one branch to another. Apply the technique as follows:
-
+```git
 $ git checkout branch1 # ensure in branch1 is checked out and active
 $ git checkout branch2 file.py
-
+```
 Now file.py is now in branch1."
