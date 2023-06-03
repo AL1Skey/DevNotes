@@ -48,11 +48,11 @@ Workaround:
 The only difference between the final and const keyword is that final is a runtime-constant, which in turn means that its value can be assigned at runtime instead of the compile-time that we had for the const keyword.
 
 ### Git
-- Problem
+#### Problem
 
 Need to merge specific file
 
-- Answer
+#### Answer
 
 "Although not a merge per se, sometimes the entire contents of another file on another branch are needed. Jason Rudolph's blog post provides a simple way to copy files from one branch to another. Apply the technique as follows:
 
